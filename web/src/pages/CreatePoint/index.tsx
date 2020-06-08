@@ -46,7 +46,7 @@ const CreatePoint: React.FC = () => {
     0,
   ]);
   const [selectedItems, setSelectedItems] = useState<number[]>([]);
-  const history = useHistory('');
+  const history = useHistory();
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {

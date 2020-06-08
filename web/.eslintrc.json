@@ -30,8 +30,15 @@
     ],
     "rules": {
       "prettier/prettier": "error",
+      "react/jsx-one-expression-per-line": "off",
+      "jsx-a11y/label-has-associated-control": "off",
+      "jsx-a11y/click-events-have-key-events": "off",
+      "jsx-a11y/no-noninteractive-element-interactions": "off",
+      "camelcase": "off",
+      "no-shadow": "off",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
+      "@typescript-eslint/explicit-module-boundary-types": "off",
       "react/jsx-filename-extension": [1, {"extensions": [".tsx"]}],
       "import/prefer-default-export": "off",
       "import/extensions": [

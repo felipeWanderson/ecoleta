@@ -1,7 +1,10 @@
 import React from 'react';
+import './App.css';
+
+import Routes from './router';
 
 function App() {
-  return <h1>Hello Ecoleta</h1>;
+  return <Routes />;
 }
 
 export default App;
